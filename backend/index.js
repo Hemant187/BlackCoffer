@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express()
-require('dotenv').config({path: './config/.env'})
+require('dotenv').config({path: './config/config.env'})
 const Data = require('./model/Data.model')
 //connect mongoDb
 const connectDB = require('./config/database')
